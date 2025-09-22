@@ -6,7 +6,7 @@ mittels Machine Learning auf Grundlage von Satellitenbildern am Beispiel von Dam
 
   Überblick
 Ziel des Projekts ist es, den Zerstörungsgrad von Gebäuden automatisch zu schätzen,  
-indem **Vorher- und Nachher-Satellitenbilder miteinander verglichen werden.  
+indem Vorher- und Nachher-Satellitenbilder miteinander verglichen werden.  
 Dazu werden die Bilder in 256×256 Pixel große Abschnitte zerlegt  
 und durch ein Twin-EfficientNet-B0-Modell ausgewertet.  
 Das Ergebnis sind Heatmaps, die den Schaden visuell darstellen,  
@@ -25,3 +25,4 @@ sowie ein automatisch erstellter PDF-Bericht mit Kennzahlen und Vorher-Nachher-V
 Installation der benötigten Pakete:
 ```bash
 pip install tensorflow numpy pandas matplotlib pillow
+
